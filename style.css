@@ -1,0 +1,63 @@
+body{
+    background-color: #e9eaea;
+}
+#head{
+    background-color: white;    
+}
+
+#logo{
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    float: right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#mid-left{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e9eaea;
+    text-align: center;
+    font-size: 30px; 
+    padding: 40px
+}
+
+#img{
+    float: left;
+}
+
+table{
+    float: right;
+    margin: 10px 80px;
+        
+}
+
+input{
+    float: right
+    width: 50%;
+    padding: 10px 30px;
+    
+}
+
+.button1 {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    width: 40%;
+}
