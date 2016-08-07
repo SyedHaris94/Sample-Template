@@ -12,9 +12,10 @@ body{
 
 .button {
     float: right;
-    background-color: #4CAF50;
-    border: none;
     color: white;
+    border-color: #46c9b6;
+    background-color: #46c9b6;
+    border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -22,6 +23,37 @@ body{
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.button1 {
+    
+    color: white;
+    border-color:  #46c9b6;
+    background-color: #46c9b6;
+    border: none;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.button-1{
+    float: right;
+    color: #62d1c1;
+    border-color: #34B3A0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: #34B3A0;
+}
+
 
 #mid-left{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,8 +69,8 @@ body{
 
 table{
     float: right;
-    margin: 10px 80px;
-        
+    margin: 20px 80px;
+            
 }
 
 input{
@@ -48,16 +80,40 @@ input{
     
 }
 
-.button1 {
+
+.button-1:hover {
+    color: #34B3A0;
+    background-image: none;
+    background-color: transparent;
+    border-color: #34B3A0;
     
-    background-color: #4CAF50;
-    border: none;
+}
+
+.button1:hover{
+    color: #fff;
+    background-color: #62d1c1;
+    border-color: transparent;
+    
+}
+
+
+.button:hover {
     color: white;
-    padding: 20px 32px;
+    background-color: #62d1c1;
+    border-color: transparent;
+
+}
+
+#button{
+    float: right;
+    color: white;
+    border-color: #46c9b6;
+    background-color: #46c9b6;
+    border: none;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 20px 2px;
+    margin: 4px 2px;
     cursor: pointer;
-    width: 40%;
 }
