@@ -68,6 +68,7 @@ body{
 }
 
 table{
+    background-color: #e9eaea;
     float: right;
     margin: 20px 80px;
             
@@ -96,7 +97,6 @@ input{
     
 }
 
-
 .button:hover {
     color: white;
     background-color: #62d1c1;
@@ -104,16 +104,23 @@ input{
 
 }
 
-#button{
+#img-butt{
+    background-color: #e9eaea;  
     float: right;
-    color: white;
-    border-color: #46c9b6;
-    background-color: #46c9b6;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 20px -30px;
+    margin:  -20px 100px;
+    }
+
+small {
+    float: right; 
+    padding: 20px 130px; 
+    margin: 10px 60px; 
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #e9eaea;
+    
+}
+
+#article{
+    background-color: lightgray;
 }
